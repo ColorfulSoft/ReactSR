@@ -18,5 +18,5 @@ AI-based real world super resolution application for React OS, Windows and Linux
 | ReactOS          | 0.4.14                                            | .NET Framework 4.0                      |
 
 <p align="center">
-  <img width="1200" height="780" src="https://github.com/ColorfulSoft/ReactSR/blob/main/.content/Demo.png">
+  <img width="600" height="390" src="https://github.com/ColorfulSoft/ReactSR/blob/main/.content/Demo.png">
 </p>
