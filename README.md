@@ -17,6 +17,14 @@ AI-based real world super resolution application for React OS, Windows and Linux
 | Linux            | Mint, Ubuntu, RedOS, Alt Linux, Astra Linux       | Mono 6.12                               |
 | ReactOS          | 0.4.14                                            | .NET Framework 4.0                      |
 
+# Development stack
+
+* __OS:__ Windows 7 Ultimate x64
+* __Runtime:__ .NET Framework 4.5
+* __IDE:__ SharpDevelop 5.1
+* __Language:__ C# 5
+* __GUI framework:__ Windows Forms
+
 <p align="center">
   <img width="600" height="390" src="https://github.com/ColorfulSoft/ReactSR/blob/main/.content/Demo.png">
 </p>
