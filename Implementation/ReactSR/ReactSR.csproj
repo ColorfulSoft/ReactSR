@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{6067A303-670D-4B5A-9D99-7FDE87CC8A03}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ReactSR</RootNamespace>
+    <AssemblyName>ReactSR</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <ApplicationIcon>resources\ReactSR.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InfoForm.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SRViT.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <EmbeddedResource Include="resources\ReactSR.png">
+      <LogicalName>ReactSR.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\Open.png">
+      <LogicalName>Open.png</LogicalName>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <EmbeddedResource Include="resources\Save.png">
+      <LogicalName>Save.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\Cancel.png">
+      <LogicalName>Cancel.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\Start.png">
+      <LogicalName>Start.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\Stop.png">
+      <LogicalName>Stop.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\Info.png">
+      <LogicalName>Info.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\Compare.png">
+      <LogicalName>Compare.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\NotCompare.png">
+      <LogicalName>NotCompare.png</LogicalName>
+    </EmbeddedResource>
+    <None Include="resources\ReactSR.ico" />
+    <EmbeddedResource Include="resources\Test.jpg">
+      <LogicalName>Test.jpg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\TestSR.jpg">
+      <LogicalName>TestSR.jpg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SRViT.hmodel">
+      <LogicalName>SRViT.hmodel</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
