@@ -24,7 +24,7 @@ namespace ColorfulSoft.ReactSR
             float scale_x = g.DpiX / 96f;
             float scale_y = g.DpiY / 96f;
             // Form
-            this.Text = "About ReactSR";
+            this.Text = "About ReactSR v1.0";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
