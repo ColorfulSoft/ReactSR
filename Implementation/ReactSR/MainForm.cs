@@ -516,7 +516,7 @@ namespace ColorfulSoft.ReactSR
                 this.__stop_process_edit_menu_item.Enabled = true;
                 this.__stop_process_tool_item.Enabled = true;
             }));
-            this.__after = SRViT.Instance.Process(this.__before.Clone(new Rectangle(new Point(0, 0), this.__before.Size), PixelFormat.Format24bppRgb), this.__progress_setter);
+            this.__after = SMFANet.Instance.Process(this.__before.Clone(new Rectangle(new Point(0, 0), this.__before.Size), PixelFormat.Format24bppRgb), this.__progress_setter);
             this.Invoke((Action)(() =>
             {
                 this.__save_file_menu_item.Enabled = true;

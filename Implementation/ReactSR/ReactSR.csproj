@@ -56,7 +56,7 @@
     <Compile Include="MainForm.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SRViT.cs" />
+    <Compile Include="SMFANet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -95,8 +95,8 @@
     <EmbeddedResource Include="resources\TestSR.jpg">
       <LogicalName>TestSR.jpg</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="resources\SRViT.hmodel">
-      <LogicalName>SRViT.hmodel</LogicalName>
+    <EmbeddedResource Include="resources\SMFANet.hmodel">
+      <LogicalName>SMFANet.hmodel</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
