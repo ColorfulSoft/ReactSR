@@ -27,7 +27,7 @@ AI-based real world super resolution application for React OS, Windows and Linux
 
 # Implementation details
 
-ReactSR v2.0 is based on _[ECCV 2024] SMFANet: A Lightweight Self-Modulation Feature Aggregation Network for Efficient Image Super-Resolution_ network trained as real-world SR model via RealESRGAN-like pipeline. We use original MobileSR pretrained model (https://github.com/Zheng-MJ/SMFANet) to initialize parameters of our model.
+ReactSR v2.0 is based on _[ECCV 2024] SMFANet: A Lightweight Self-Modulation Feature Aggregation Network for Efficient Image Super-Resolution_ network trained as real-world SR model via RealESRGAN-like pipeline. We use original SMFANet++ pretrained model (https://github.com/Zheng-MJ/SMFANet) to initialize parameters of our model.
 
 <p align="center">
   <img width="600" height="390" src="https://github.com/ColorfulSoft/ReactSR/blob/main/.content/Demo.png">
