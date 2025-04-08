@@ -5,6 +5,8 @@
 # ReactSR v2.0
 AI-based real world super resolution application for React OS, Windows and Linux
 
+_Paper "ReactSR: Efficient Real-World Super-Resolution Application in a Single Floppy Disk" was accepted to 20th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISAPP 2025). The article reveals the technical details of training the models underlying ReactSR and comparison with analogues._
+
 # Supported platforms
 
 * ReactSR supports Windows (XP and later), Linux (tested on current versions of Mint, Ubuntu, RedOS, Alt Linux and Astra Linux) and ReactOS. macOS and Android __ARE NOT SUPPORTED__.
